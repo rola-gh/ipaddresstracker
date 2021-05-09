@@ -1,9 +1,9 @@
 import './App.css';
-
+import Header from "./component/header"
 function App() {
   return (
     <div className="App">
-        HELLO
+        <Header header="IP Address Tracker"/>
     </div>
   );
 }
