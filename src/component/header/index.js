@@ -3,10 +3,12 @@ import "./style.css";
 
 function Header({header}) {
 	return (
-		<div className="container">
-			<h1>{header}</h1>
-			<Search />
-		</div>
+		<>
+			<div className="container">
+				<h1 className="header">{header}</h1>
+				{/*<Search />*/}
+			</div>
+		</>
 	);
 }
 
