@@ -6,7 +6,7 @@ function Header({header}) {
 		<>
 			<div className="container">
 				<h1 className="header">{header}</h1>
-				{/*<Search />*/}
+				<Search />
 			</div>
 		</>
 	);
