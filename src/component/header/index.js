@@ -1,4 +1,4 @@
-import Search from "./../search"
+import Search from "./../search";
 import "./style.css";
 
 function Header({header}) {

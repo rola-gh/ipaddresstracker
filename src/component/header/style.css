@@ -1,8 +1,8 @@
 .container{
     background: url("../../assets/pattern-bg.png")  no-repeat  ;
     background-size: cover;
-    width: 100%;
-    height: 35vh;
+    /*width: 100%;*/
+    height: 30%;
 }
 .header{
     padding-top: 20px;

@@ -1,1 +1,55 @@
 
+.address-card {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 1em 4em;
+    z-index: 3;
+    position: relative;
+    width: 80%;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: hsl(0, 0%, 59%);
+    font-size: 0.65em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+}
+
+.detail {
+    color: hsl(0, 0%, 17%);
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 0.25em;
+}
+@media (min-width: 790px) {
+    .address-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3em 1.5em;
+    }
+
+    .col + .col {
+        margin-left: 1em;
+    }
+
+    .col + .col::before {
+        content: "";
+        background-color: hsl(0, 0%, 59%);
+        height: 100%;
+        width: 2px;
+        display: inline-block;
+        margin-right: 2px;
+    }
+    h2 {
+        margin-right: 3px;
+    }
+
+    .col {
+        display: flex;
+    }
+}
